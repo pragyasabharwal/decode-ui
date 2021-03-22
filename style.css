@@ -691,3 +691,6 @@ input{
 #github-link{
     color: white;
 }
+code{
+    background-color: var(--gray-fade);
+}
