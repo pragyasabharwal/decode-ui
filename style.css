@@ -373,7 +373,7 @@ button{
     opacity: 0;
 }
 .product-card-3:hover .product-details-overlay{
-    top: 141em;
+    top: 146em;
     opacity: 1;
 }
 .product-image{
