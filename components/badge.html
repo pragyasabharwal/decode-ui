@@ -14,9 +14,9 @@
     <nav>
         <a href="/index.html">
             <img src="/DECODE UI.png" class="hero"></a>
-            <button class="button-primary button-nav padding-1">
-                <a href="https://github.com/pragyasabharwal/decode-ui" id="github-link">View on GitHub</a>
-               </button>
+        <button class="button-primary button-nav padding-1">
+            <a href="https://github.com/pragyasabharwal/decode-ui" id="github-link">View on GitHub</a>
+        </button>
     </nav>
     <div class="main-grid">
         <div class="side-nav padding-10 margin-3">
@@ -35,7 +35,9 @@
             <a href="card.html">
                 <li class="padding-7">Card</li>
             </a>
-            <li class="padding-7">Image</li>
+            <a href="image.html">
+                <li class="padding-7">Image</li>
+            </a>
             <a href="input.html">
                 <li class="padding-7">Input</li>
             </a>
@@ -52,73 +54,77 @@
                 <li class="padding-7">Grid</li>
             </a>
         </div>
-        <div class="components margin-3">
+        <div class="components">
             <!-- cart badge -->
             <div class="margin-5 container">
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="50" viewBox="0 0 24 24" class="margin-9">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="50" viewBox="0 0 24 24">
                     <path
                         d="M24 3l-.743 2h-1.929l-3.474 12h-13.239l-4.615-11h16.812l-.564 2h-13.24l2.937 7h10.428l3.432-12h4.195zm-15.5 15c-.828 0-1.5.672-1.5 1.5 0 .829.672 1.5 1.5 1.5s1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5zm6.9-7-1.9 7c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5z" />
                     <span class="badge-cart"> 4 </span> </svg>
                 <br />
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csvg%250A%2520%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%250A%2520%2520width%253D%252240%2522%250A%2520%2520height%253D%252250%2522%250A%2520%2520viewBox%253D%25220%25200%252024%252024%2522%250A%2520%2520class%253D%2522margin-1%2522%250A%253E%250A%2520%2520%253Cpath%2520d%253D%2522M24%25203l-.743%25202h-1.929l-3.474%252012h-13.239l-4.615-11h16.812l-.564%25202h-13.24l2.937%25207h10.428l3.432-12h4.195zm-15.5%252015c-.828%25200-1.5.672-1.5%25201.5%25200%2520.829.672%25201.5%25201.5%25201.5s1.5-.671%25201.5-1.5c0-.828-.672-1.5-1.5-1.5zm6.9-7-1.9%25207c-.828%25200-1.5.671-1.5%25201.5s.672%25201.5%25201.5%25201.5%25201.5-.671%25201.5-1.5c0-.828-.672-1.5-1.5-1.5z%2522%2520%252F%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge-cart%2522%253E%25204%2520%253C%252Fspan%253E%250A%253C%252Fsvg%253E%250A"
-                    style="width: 1024px; height: 420px; border:0; transform: scale(1); overflow:hidden;"
+                <iframe class="margin-18"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csvg%250A%2520%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%250A%2520%2520width%253D%252240%2522%250A%2520%2520height%253D%252250%2522%250A%2520%2520viewBox%253D%25220%25200%252024%252024%2522%250A%2520%2520class%253D%2522margin-1%2522%250A%253E%250A%2520%2520%253Cpath%2520d%253D%2522M24%25203l-.743%25202h-1.929l-3.474%252012h-13.239l-4.615-11h16.812l-.564%25202h-13.24l2.937%25207h10.428l3.432-12h4.195zm-15.5%252015c-.828%25200-1.5.672-1.5%25201.5%25200%2520.829.672%25201.5%25201.5%25201.5s1.5-.671%25201.5-1.5c0-.828-.672-1.5-1.5-1.5zm6.9-7-1.9%25207c-.828%25200-1.5.671-1.5%25201.5s.672%25201.5%25201.5%25201.5%25201.5-.671%25201.5-1.5c0-.828-.672-1.5-1.5-1.5z%2522%2520%252F%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge-cart%2522%253E%25204%2520%253C%252Fspan%253E%250A%253C%252Fsvg%253E"
+                    style="height: 290px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
                 <br>
                 <!-- notifications badge -->
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" class="margin-9">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
                     <path
                         d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm0 2.574l-12-9.725v15.438h24v-15.438l-12 9.725z" />
                     <span class="badge-msg">9</span></svg>
                 <br>
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csvg%2520%250Axmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%2520%250Awidth%253D%252230%2522%2520%250Aheight%253D%252230%2522%2520%250AviewBox%253D%25220%25200%252024%252024%2522%2520%250Aclass%253D%2522margin-9%2522%253E%250A%253Cpath%2520d%253D%2522M12%252012.713l-11.985-9.713h23.97l-11.985%25209.713zm0%25202.574l-12-9.725v15.438h24v-15.438l-12%25209.725z%2522%2520%252F%253E%250A%253Cspan%2520class%253D%2522badge-msg%2522%253E9%253C%252Fspan%253E%253C%252Fsvg%253E%253E%250A"
-                    style="width: 1024px; height: 366px; border:0; transform: scale(1); overflow:hidden;"
+                <iframe class="margin-18"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csvg%2520%250Axmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%2520%250Awidth%253D%252230%2522%2520%250Aheight%253D%252230%2522%2520%250AviewBox%253D%25220%25200%252024%252024%2522%2520%250Aclass%253D%2522margin-9%2522%253E%250A%253Cpath%2520d%253D%2522M12%252012.713l-11.985-9.713h23.97l-11.985%25209.713zm0%25202.574l-12-9.725v15.438h24v-15.438l-12%25209.725z%2522%2520%252F%253E%250A%253Cspan%2520class%253D%2522badge-msg%2522%253E9%253C%252Fspan%253E%253C%252Fsvg%253E"
+                    style="height: 218px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </div>
             <!-- notifications badge type 2-->
-            <div class="notis center margin-9 padding-2">Notifications<span class="badge">4</span></div>
+            <div class="notis center margin-7 padding-2">Notifications<span class="badge">4</span></div>
             <br>
-            <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522notis%2520center%2520margin-9%2520padding-2%2522%253E%250A%2520%2520Notifications%2520%250A%253Cspan%2520class%253D%2522badge%2522%253E4%253C%252Fspan%253E%2520%250A%253C%252Fdiv%253E%250A"
-                style="width: 530px; height: 276px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin" class="margin-5">
+            <iframe class="margin-19"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522notis%2520center%2520margin-9%2520padding-2%2522%253E%250A%2520%2520Notifications%2520%250A%253Cspan%2520class%253D%2522badge%2522%253E4%253C%252Fspan%253E%2520%250A%253C%252Fdiv%253E"
+                style="height: 146px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
             </iframe>
             <br>
-            <div class="pill-badge padding-2 margin-10">I am a pill badge</div>
+            <div class="pill-badge margin-7 padding-2">I am a pill badge</div>
             <br>
-            <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522pill-badge%2520padding-2%2520margin-10%2522%253EI%2520am%2520a%2520pill%2520badge%253C%252Fdiv%253E"
-                style="width: 715px; height: 204px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin" class="margin-5">
+            <iframe class="margin-19"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522pill-badge%2520padding-2%2520margin-10%2522%253EI%2520am%2520a%2520pill%2520badge%253C%252Fdiv%253E"
+                style="height: 92px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
             </iframe>
             <br>
-            <button class="button-primary margin-11 padding-3">Primary</button>
+            <button class="button-primary margin-7 padding-3">Primary</button>
             <br>
-            <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button-primary%2520padding-3%2520margin-10%2522%253EPrimary%253C%252Fbutton%253E"
-                style="width: 715px; height: 204px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin" class="margin-5">
+            <iframe class="margin-19"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button-primary%2520padding-3%2520margin-10%2522%253EPrimary%253C%252Fbutton%253E"
+                style="height: 92px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
             </iframe>
             <br>
-            <button class="button-secondary padding-3 margin-10">Delete</button>
+            <button class="button-secondary-cart-horizontal-1 padding-3 margin-7">Delete</button>
             <br>
-            <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button-secondary%2520padding-3%2520margin-10%2522%253EDelete%253C%252Fbutton%253E"
-                style="width: 724px; height: 204px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin" class="margin-5">
+            <iframe class="margin-19"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button-secondary%2520padding-3%2520margin-10%2522%253EDelete%253C%252Fbutton%253E"
+                style="height: 92px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
             </iframe>
             <br>
-            <button class="button-fa margin-12">+</button>
+            <button class="button-fa margin-17">+</button>
             <br>
-            <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button-fa%2520margin-12%2522%253E%252B%253C%252Fbutton%253E"
-                style="width: 538px; height: 204px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin" class="margin-5">
+            <iframe class="margin-19"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button-fa%2520margin-12%2522%253E%252B%253C%252Fbutton%253E"
+                style="height: 92px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
             </iframe>
         </div>
+    </div>
+    <div class="footer-flex">
+        <button class="previous"><a href="./avatar.html">← Avatar</a></button>
+        <button class="next"><a href="./card.html">Card →</a></button>
     </div>
 </body>
 

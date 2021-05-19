@@ -15,9 +15,9 @@
     <nav>
         <a href="/index.html">
             <img src="/DECODE UI.png" class="hero"></a>
-            <button class="button-primary button-nav padding-1">
-                <a href="https://github.com/pragyasabharwal/decode-ui" id="github-link">View on GitHub</a>
-             </button>
+        <button class="button-primary button-nav padding-1">
+            <a href="https://github.com/pragyasabharwal/decode-ui" id="github-link">View on GitHub</a>
+        </button>
     </nav>
     <div class="main-grid">
         <div class="side-nav padding-10 margin-3">
@@ -36,7 +36,9 @@
             <a href="card.html">
                 <li class="padding-7">Card</li>
             </a>
-            <li class="padding-7">Image</li>
+            <a href="image.html">
+                <li class="padding-7">Image</li>
+            </a>
             <a href="input.html">
                 <li class="padding-7 active">Input</li>
             </a>
@@ -53,24 +55,24 @@
                 <li class="padding-7">Grid</li>
             </a>
         </div>
-        <div class="components margin-3">
+        <div class="components">
             <!-- input search bar -->
-            <h2 class="margin-13">Search Bar</h2>
-            <div class="input">
-                <input type="search" required autofocus placeholder="Search..." class=" input-search">
+            <h2 class="margin-13 margin-adjust-1">Search Bar</h2>
+            <div class="input width-3-5 margin-adjust-1">
+                <input type="search margin-adjust" required autofocus placeholder="Search..." class=" input-search">
                 <i class="fas fa-search"></i>
                 </input>
             </div>
             <br>
-            <iframe
+            <iframe class="margin-adjust-1"
                 src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input%2522%253E%250A%2520%2520%253Cinput%2520type%253D%2522search%2522%2520required%2520autofocus%2520placeholder%253D%2522Search...%2522%2520class%253D%2522input-search%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-search%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Finput%253E%250A%253C%252Fdiv%253E%250A"
-                style="width: 884px; height: 294px; border:0; transform: scale(1); overflow:hidden;"
+                style=" height: 294px; border:0; transform: scale(1); overflow:hidden;"
                 sandbox="allow-scripts allow-same-origin">
             </iframe>
 
             <!-- user information  -->
             <h2 class="margin-5">Input</h2>
-            <fieldset class="margin-14 padding-1 user-info">
+            <fieldset class="margin-14 padding-1 user-info margin-adjust-1">
                 <legend class="font-1">User Information</legend>
                 <input placeholder="Enter Name" class="input-user-success margin-1 padding-1">
                 <input placeholder="Enter Email" class="input-user-failure margin-1 padding-1">
@@ -79,10 +81,14 @@
             <br>
             <iframe
                 src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cfieldset%2520class%253D%2522margin-8%2520padding-1%2520user-info%2522%253E%250A%253Clegend%2520class%253D%2522font-1%2522%253EUser%2520Information%253C%252Flegend%253E%250A%253Cinput%2520placeholder%253D%2522Enter%2520Name%2522%2520class%253D%2522input-user-success%2520margin-1%2520padding-1%2522%253E%250A%253Cinput%2520placeholder%253D%2522Enter%2520Email%2522%2520class%253D%2522input-user-failure%2520margin-1%2520padding-1%2522%253E%250A%253Csmall%2520class%253D%2522margin-4%2520error%2522%253EEnter%2520a%2520valid%2520email%2520address%253C%252Fsmall%253E%250A%253C%252Ffieldset%253E%250A"
-                style="width: 816px; height: 312px; border:0; transform: scale(1); overflow:hidden;"
+                style="height: 312px; border:0; transform: scale(1); overflow:hidden;"
                 sandbox="allow-scripts allow-same-origin">
             </iframe>
         </div>
+    </div>
+    <div class="footer-flex">
+        <button class="previous"><a href="./image.html">← Image</a></button>
+        <button class="next"><a href="./list.html">List →</a></button>
+    </div>
 </body>
-
 </html>

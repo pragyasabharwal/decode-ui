@@ -14,9 +14,9 @@
     <nav>
         <a href="index.html">
             <img src="DECODE UI.png" class="hero"></a>
-            <button class="button-primary button-nav padding-1">
-                <a href="https://github.com/pragyasabharwal/decode-ui" id="github-link">View on GitHub</a>
-            </button>
+        <button class="button-primary button-nav padding-1">
+            <a href="https://github.com/pragyasabharwal/decode-ui" id="github-link">View on GitHub</a>
+        </button>
     </nav>
     <div class="main-grid">
         <div class="side-nav padding-10 margin-3">
@@ -35,7 +35,9 @@
             <a href="components/card.html">
                 <li class="padding-7">Card</li>
             </a>
-            <li class="padding-7">Image</li>
+            <a href="components/image.html">
+                <li class="padding-7">Image</li>
+            </a>
             <a href="components/input.html">
                 <li class="padding-7">Input</li>
             </a>
@@ -52,23 +54,31 @@
                 <li class="padding-7">Grid</li>
             </a>
         </div>
-        <div class="components margin-3">
-            <div class="margin-15">
+        <div class="components">
+            <div class="intro">
                 <h2>Getting Started</h2>
                 <h3>Using Decode UI in your website is really easy.
                     <br>
                     <br>
-                    Add the following link in the <code>head</code> section of each HTML page to get started.
+                    Add the following link in the
+                    <code>&lt;head&gt;</code>
+                    section of each HTML page to get started.
+                    <br>
+                    <br>
+                    You can alternatively <code>@import</code> the url in your CSS file to get started.
                 </h3>
             </div>
-            <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=https%253A%252F%252Fdecode-ui.netlify.app%252Fstyle.css"
-                style="width: 479px; height: 204px; border:0; transform: scale(1); overflow:hidden;"
+            <iframe class="margin-3 margin-adjust-3"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=https%253A%252F%252Fdecode-ui.netlify.app%252Fstyle.css%250A%250A%2540import%2520url%28%2522decode-ui.netlify.app%252Fstyle.css%2522%29"
+                style="height: 128px; border:0; transform: scale(1); overflow:hidden;"
                 sandbox="allow-scripts allow-same-origin">
             </iframe>
-
         </div>
+
     </div>
+    <button class="next">
+        <a href="components/alert.html"> Alert →</a>
+    </button>
 </body>
 
 </html>
